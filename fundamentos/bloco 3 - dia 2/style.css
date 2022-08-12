@@ -1,0 +1,14 @@
+
+    
+        #yellow {background-color: yellow; text-align: center;}
+
+        #red {background-color: red; text-decoration: underline;}
+
+        #brown {background-color: brown; line-height: 40px;}
+
+        body {font-size: 16px;}
+  
+        p {font-weight: 600; font-size: 48px; font-style: italic; background-color: blue;}
+
+        h1 {width: 65px; color: orange; font-family: sans-serif};
+
