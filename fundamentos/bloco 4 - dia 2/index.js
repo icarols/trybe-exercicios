@@ -1,4 +1,4 @@
-let numbers = [301, 9, 3, 19, 70, 8, 100, 227, 35, 27];
+let numbers = [50, 0, 4, 2, 10, 12, 14, 16, 18, 1];
 let soma = 0;
 let media = 0;
 
@@ -27,7 +27,7 @@ let media = 0;
 // else (console.log("valor menor ou igual a 20"));
 
 //-----------------------------------------------------------------------------------------------------------------------
-// let test = 0;                                                       // exercicio 5 - verifica e imprime o maior valor do array
+// let test = 0;                                                    // exercicio 5 - verifica e imprime o maior valor do array
 // let maiorNum = 0;
 // for (let i = 0; i < numbers.length; i += 1){
 //     test = numbers[i];
@@ -39,13 +39,36 @@ let media = 0;
 // console.log(maiorNum);
 
 //-----------------------------------------------------------------------------------------------------------------------
-let test1 = 0;                                                       // exercicio 6 - verifica e imprime a quantidade de numeros impares
-let somaImpar = 0;
-for (let i = 0; i < numbers.length; i += 1){
-    test1 = numbers[i];
-    if (test1 % somaImpar !== 0){
-        somaImpar = 1;
-    }
-}
-console.log(somaImpar);
+// let somaImpar = 0;                                               // exercicio 6 - verifica e imprime a quantidade de numeros impares
+// for (let i = 0; i < numbers.length; i += 1){
+//     if (numbers[i] % 2 !== 0){
+//         somaImpar += 1;
+//     }
+//     else (somaImpar = somaImpar);
+// }
 
+// if (somaImpar == 0){
+//     console.log("nenhum valor ímpar encontrado!"); 
+// }
+// else (console.log(somaImpar, "numeros ímpares"));
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+// let test1 = 0;                                                   // exercicio 7 - verifica e imprime o menor valor do array
+// let menorNum = numbers[0];
+// for (let i = 0; i < numbers.length; i += 1){
+//     test1 = numbers[i];
+//     if (test1 < menorNum){
+//         menorNum = test1;
+//     }
+//     else (test1 = numbers[i]);
+// }
+// console.log(menorNum);
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+let numeros = [];                                                   //exercicio 8 - cria array que vá de 1 até 25 e imprima o resultado
+for (let i = 0; i < 26; i += 1){
+    numeros.push;
+}
+console.log(numeros); 
