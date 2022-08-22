@@ -27,17 +27,25 @@ let media = 0;
 // else (console.log("valor menor ou igual a 20"));
 
 //-----------------------------------------------------------------------------------------------------------------------
-let test = 0;                                                       // exercicio 5 - verifica e imprime o maior valor do array
-let maiorNum = 0;
-for (let i = 0; i < numbers.length; i += 1){
-    test = numbers[i];
-    if (test > maiorNum){
-        maiorNum = test;
-    }
-    else (test = numbers[i]);
-}
-console.log(maiorNum);
+// let test = 0;                                                       // exercicio 5 - verifica e imprime o maior valor do array
+// let maiorNum = 0;
+// for (let i = 0; i < numbers.length; i += 1){
+//     test = numbers[i];
+//     if (test > maiorNum){
+//         maiorNum = test;
+//     }
+//     else (test = numbers[i]);
+// }
+// console.log(maiorNum);
 
 //-----------------------------------------------------------------------------------------------------------------------
-
+let test1 = 0;                                                       // exercicio 6 - verifica e imprime a quantidade de numeros impares
+let somaImpar = 0;
+for (let i = 0; i < numbers.length; i += 1){
+    test1 = numbers[i];
+    if (test1 % somaImpar !== 0){
+        somaImpar = 1;
+    }
+}
+console.log(somaImpar);
 
